@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIAddon>
+	<Name>BotBridge</Name>
+	<AutoStart>true</AutoStart>
+	<userAddonInfo>
+		<name href="AddonName.txt" />
+		<description href="AddonDescription.txt" />
+		<author>aobot</author>
+		<version>1.0</version>
+		<apiVersion>18000000</apiVersion>
+		<buildTime>1782156742954</buildTime>
+		<useCommonScripts>false</useCommonScripts>
+	</userAddonInfo>
+	<ScriptFileRefs>
+		<Item href="Scripts/Config.lua" />
+		<Item href="Scripts/Packer.lua" />
+		<Item href="Scripts/Collect.lua" />
+		<Item href="Scripts/Catalog.lua" />
+		<Item href="Scripts/Main.lua" />
+	</ScriptFileRefs>
+	<Form href="Widgets/MainForm.(WidgetForm).xdb" />
+</UIAddon>
